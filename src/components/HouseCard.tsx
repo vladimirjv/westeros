@@ -10,7 +10,7 @@ type HouseCardProps = {
 
 export default function HouseCard({ house }: HouseCardProps) {
   return (
-    <Card className="border-none my-4 w-full group">
+    <Card className="border-none my-4 w-full group hover:bg-card/90">
       <CardContent className="pt-6 flex flex-1 w-full">
         <AccordionItem
           value={house.url}
